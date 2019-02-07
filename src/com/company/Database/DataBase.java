@@ -10,6 +10,6 @@ public class DataBase {
 
     public static Connection getConnection() throws SQLException
     {
-        return DriverManager.getConnection("jdbc:mysql://localhost:3306/bankdb", "root", "");
+        return DriverManager.getConnection("jdbc:mysql://localhost:3306/bankdb", "root", "spiderman");
     }
 }
